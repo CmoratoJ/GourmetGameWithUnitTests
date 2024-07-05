@@ -1,0 +1,24 @@
+{
+    "name": "caio/jogo-gourmet",
+    "description": "Jogo desenvolvido na linguagem PHP. O jogo consiste em adivinhar o prato em que o usuário está pensando, dando a possibilidade do usuário cadastrar novos pratos que ainda não existam na lista.",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/",
+            "tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caiomJ",
+            "email": "caiomorato94@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "require": {
+        "symfony/var-dumper": "^7.1",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
